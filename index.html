@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - \ABDULLAH's Cuisine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+        }
+
+        .full-page {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+        }
+
+        .nav-icon {
+            display: flex;
+            align-items: center;
+        }
+
+        .ali {
+            margin-left: 10px;
+        }
+
+        main {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        h1, h3 {
+            color: #333;
+        }
+
+        .content-area {
+            margin-top: 20px;
+        }
+
+        img {
+            margin: 10px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="full-page">
+
+        <header>
+            <div class="background">
+                <div class="navbar">
+                    <div class="nav-container">
+                        <h1>\ABDULLAH's Cuisine</h1>
+                        <div class="nav-links">
+                            <a href="index.html">Home</a>
+                            <a href="Menu.html">Menu</a>
+                            <a href="About.html">About</a>
+                            <a href="/Timing.html">Timing</a>
+                            <a href="Contact.html">Contact</a>
+                        </div>
+                        <div class="nav-icon border">
+                            <div class="hus">
+                                <i class="fa-solid fa-magnifying-glass" class="symbol"></i>
+                            </div>
+                            <input type="search" placeholder="Search Food" class="ali">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <h1>\ABDULLAH's Cuisine</h1>
+            <h3>We Serve Fast Delicious Food To Our Customer</h3>
+
+            <div class="content-area">
+                <img src="photos/Pizza 2.jpeg" alt="First-item" width="30%">
+                <img src="photos/Pizza 1.jpeg" alt="2nd-item" width="30%">
+                <img src="photos/3rd-home.jpeg" alt="3rd-item" width="30%">
+
+                <button class="border">
+                    <a href="index.html">Click To See Menu</a>
+                </button>
+            </div>
+        </main>
+
+        <footer>
+            <h4>Copyright&copy; 2024 \ABDULLAH's Cuisine</h4>
+        </footer>
+
+    </div>
+</body>
+
+</html>
